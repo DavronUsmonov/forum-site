@@ -1,0 +1,27 @@
+.app {
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+
+.createForm {
+    display:flex;
+    flex-direction: column;
+    height: 40%;
+    width: 33%;
+}
+
+.shortInput {
+    max-height:1rem;
+}
+
+.descriptionInput {
+    height:20vh;
+}
+
+.btn {
+    margin-top:1%;
+    width:15%;
+}

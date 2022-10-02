@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+.app {
+    font-family: 'Poppins', sans-serif;
+    min-height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.createForm {
+    display:flex;
+    flex-direction: column;
+    height: 40%;
+    width: 30%;
+}
+
+.shortInput {
+    max-height:1rem;
+}
+
+.btn {
+    width:100%;
+} 
+
+h2 {
+    margin:0;
+}
+
+.postList {
+    display:flex;
+    padding:0;
+    flex-direction: column;
+    width:46%;
+    justify-content: center;
+}
+
+.post {
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    padding:1rem;
+    border: 0.15rem solid black;
+    border-radius:0.5rem;
+    margin-bottom: 0.5rem;
+    transition: all 0.2s;
+}
+
+.post:hover {
+    font-size:1.15rem;
+    padding:1.15rem
+}
+
+.post p {
+    margin:0;
+    color:gray;
+}
+
+.smallInfo {
+    display:flex;
+    justify-content: space-around;
+}
+
+.post {
+    cursor: pointer;
+}
+
+.home {
+    display: flex;
+    width:100%;
+    justify-content: space-around;
+}
+
+.thread {
+    display: flex;
+    width:100%;
+    flex-direction : column;
+    align-items:center;
+    justify-content: center;
+}
+
+.comments {
+    width:100%;  
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.comment {
+    width:70%;
+    display:flex;
+    flex-direction: column;
+    padding:0.5rem 1rem 1rem 1rem;
+    border-bottom: 1px solid grey;
+}
+
+.comment p{
+    margin:0.4rem;
+}
+
+.time {
+    font-size: 0.75rem;
+    color: grey;
+    font-weight: normal;
+}
+
+.creator {
+    font-weight: bold;
+}
+
+.comment h2 {
+    margin-bottom: 1rem;
+}
+
+#commentForm {
+    margin-top:1rem;
+}
+
+.fullPost {
+    display:flex;
+    width:100%;
+}
+
+.trash {
+    margin-left: 1rem;
+    align-self: center;
+    font-size: 1.7rem;
+    cursor:pointer;
+    color:rgb(230, 70, 25);
+    transition: all 0.5s;
+}
+
+.trash:hover {
+    font-size: 3rem;
+    color:rgb(214, 77, 146);
+}
+
+.fullComment {
+    display:flex;
+    width:100%;
+    justify-content: center;
+    margin-left: 2.7rem;
+}
+
+input[type=text] {
+    margin-bottom: 0.5rem;
+    padding:0.6rem;
+    border: 0.1rem solid black;
+    border-radius:0.3rem;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+input[type=text]:hover {
+    border: 0.15rem solid black;
+}
+
+textarea {
+    box-sizing: border-box;
+    width: 100%;
+    resize:vertical;
+    height:20vh;
+    padding:0.6rem;
+    border: 0.1rem solid black;
+    border-radius:0.3rem;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+textarea:hover {
+    border: 0.15rem solid black;
+}
+
+button {
+    width:100%;
+    padding:0.3rem;
+    color:white;
+    background-color: #7b38d8;
+    border:0.1rem solid #7b38d8;
+    border-radius:0.5rem;
+    cursor:pointer;
+    transition: all 0.5s;
+    font-family: 'Poppins', sans-serif;
+    margin-top:0.5rem;
+}
+
+button:hover {
+    background-color: #f7c2f9;
+    border:0.1rem solid #f7c2f9;
+    color:black;
+}
+
+.clear {
+    background-color:rgb(170, 70, 116);
+    border:0.1rem solid rgb(170, 70, 116);
+}
+
+
+input[type=file] {
+    width:100%;
+    margin-top:0.5rem;
+}
+
+img {
+    width:30%;
+    transition: all 0.3s;
+}
+
+img:hover {
+    width:50%;
+}
+
+iframe {
+    width:100%;
+    height:500px;
+}
+
+
+
+
+
